@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MobileEshop" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- κύρια χρώματα -->
+        <item name="colorPrimary">@color/deep_blue</item>
+        <item name="colorPrimaryVariant">@color/deep_blue_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- δευτερεύοντα χρώματα -->
+        <item name="colorSecondary">@color/maroon_red</item>
+        <item name="colorSecondaryVariant">@color/maroon_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- διαεπαφή στο παρασκήνιο -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- font color σε όλο το app -->
+        <item name="android:textColor">@color/black</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/deep_blue_variant</item>
+        <item name="android:navigationBarColor">@color/black</item>
+
+    </style>
+
+</resources>
+
+

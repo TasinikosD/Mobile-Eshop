@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- εισαγωγή τίτλων και φωτογραφιών στο nav menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/shop"
+        android:title="@string/shop" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/user"
+        android:title="@string/user" />
+    <item
+        android:id="@+id/language"
+        android:icon="@drawable/greek"
+        android:title="" />
+</menu>

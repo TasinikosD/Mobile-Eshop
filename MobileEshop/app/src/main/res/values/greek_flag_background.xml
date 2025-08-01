@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- background color για την ελληνική σημαία -->
+    <color name="greek_flag_background">#FFFFFF</color>
+</resources>

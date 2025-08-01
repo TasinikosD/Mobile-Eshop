@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xml κουμπιών για επανάληψη παραγγελίας από το ιστορικό -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/orderSummaryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/productsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/btnRepeatOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repeat"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="end" />
+
+</LinearLayout>

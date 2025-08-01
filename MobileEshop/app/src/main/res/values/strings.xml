@@ -1,0 +1,169 @@
+<!-- μεταφράσεις όλων των σελίδων του app στα αγγλικά -->
+<resources>
+    <string name="app_name">MobileEshop</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- strings for menu -->
+    <string name="home">Home</string>
+    <string name="shop">Shop</string>
+    <string name="user">User</string>
+
+    <!-- strings for login/register   -->
+    <string name="fill_all_fields">Please fill in all fields</string>
+    <string name="password2">Password must be at least 6 characters</string>
+    <string name="welcome_back">Welcome back, %1$s!</string>
+    <string name="welcome_back_generic">Welcome back!</string>
+    <string name="invalid_email_or_password">Invalid email or password</string>
+    <string name="user_not_found">User record not found in database.</string>
+    <string name="failed_to_fetch_user">Failed to fetch user data. Please try again.</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="account">Do not have an account? Register</string>
+    <string name="username">UserName</string>
+    <string name="register">Register</string>
+    <string name="account2">Already have an account? Login</string>
+    <string name="change_password">Reset Password</string>
+    <string name="enter_email_to_reset">Please enter your email to receive a reset link</string>
+    <string name="reset_email_sent">Password reset email sent</string>
+    <string name="failed_to_send_reset">Failed to send reset email. Try again later.</string>
+
+    <!-- Registration-specific -->
+    <string name="please_fill_all_fields">Please fill in all fields</string>
+    <string name="password_too_short">Password must be at least 6 characters</string>
+    <string name="registration_success">Registration successful! Please login.</string>
+    <string name="failed_to_save_user">Failed to save user info: %1$s</string>
+    <string name="registration_failed">Registration failed: %1$s</string>
+
+
+    <!-- strings for HomeFragment   -->
+    <string name="Shopping_list">Shopping list</string>
+    <string name="Wishlist">Wishlist</string>
+    <string name="History">History</string>
+    <string name="Offers">Offers</string>
+
+    <!-- strings for UserFragment   -->
+    <string name="UserName">UserName</string>
+    <string name="nameenter">Enter your name</string>
+    <string name="Email2">Email</string>
+    <string name="Emailenter">Enter your email</string>
+    <string name="Save_Changes">Save Changes</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="Logout">Logout</string>
+
+    <!-- UserFragment Strings -->
+    <string name="delete_account_title">Delete Account</string>
+    <string name="delete_account_message">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="delete_account_confirm">Are you sure you want to delete your account? This action is permanent.</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="account_deleted">Account deleted</string>
+    <string name="auth_delete_failed">Auth delete failed: %1$s</string>
+    <string name="firestore_delete_failed">Firestore delete failed: %1$s</string>
+    <string name="user_data_not_found">User data not found</string>
+    <string name="failed_to_load_user_data">Failed to load user data</string>
+    <string name="email_empty">Email field is empty</string>
+    <string name="reset_email_failed">Reset email failed: %1$s</string>
+    <string name="failed_to_delete_account">Failed to delete account: %1$s</string>
+
+    <!-- Product Adapter Strings -->
+    <string name="added_to_cart">%1$s added to cart</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+    <string name="failed_to_add_favorite">Failed to add: %1$s</string>
+    <string name="failed_to_remove_favorite">Failed to remove: %1$s</string>
+
+    <!--Shop Strings-->
+    <string name="price_range_label">Price: from %.2f€ to %.2f€</string>
+    <string name="cat_all">All</string>
+    <string name="cat_fresh_food">Fresh Food</string>
+    <string name="cat_dairy">Dairy</string>
+    <string name="cat_frozen">Frozen</string>
+    <string name="cat_cleaning">Cleaning Supplies</string>
+    <string name="search_hint">Search products</string>
+    <string name="only_offers">Only offers</string>
+    <string name="only_available">Only available</string>
+    <string name="price_range_label_default">Price: from €0 to €100</string>
+
+    <!-- Translations -->
+    <string name="quantities">Available Quantity: %1$d</string>
+    <string name="no_quantity_available">No Quantity Available</string>
+    <string name="offer_badge">OFFER</string>
+    <string name="add_to_cart">Add to Shopping List</string>
+    <string name="favorite">Wishlist Item</string>
+    <string name="available">Available</string>
+    <string name="not_available">Not available</string>
+    <string name="price_format">%.2f</string>
+
+    <string name="total_price_format">Sum: €%.2f</string>
+    <string name="in_stock">In Stock</string>
+    <string name="out_of_stock">Out Of Stock</string>
+    <string name="stock_unknown">Unknown stock</string>
+
+
+    <string name="full_name_hint">Full Name</string>
+    <string name="street_address_hint">Street Address</string>
+    <string name="city_hint">City</string>
+    <string name="postal_code_hint">Postal Code</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="continue_button_text">Continue to Payment</string>
+    <string name="fill_all_fields_error">Please fill all fields</string>
+
+    <string name="order_id">Order ID:</string>
+    <string name="date">Date:</string>
+    <string name="address">Address:</string>
+    <string name="phone">Phone:</string>
+    <string name="payment">Payment:</string>
+    <string name="delivery">Delivery:</string>
+    <string name="total">Total: €%1$.2f</string>
+    <string name="repeat_order_success">Order added to cart again</string>
+    <string name="product_info">• %1$s ×%2$d (€%3$.2f)</string>
+
+
+    <string name="empty_cart_message">Your cart is empty.</string>
+    <string name="all_products_in_stock">All products in stock! Proceeding...</string>
+    <string name="product_not_found_in_db">Product %1$s not found in DB</string>
+    <string name="not_enough_stock">Not enough stock for %1$s (requested: %2$d, available: %3$d)</string>
+    <string name="btn_continue">Continue</string>
+
+
+    <string name="not_logged_in">You are not logged in</string>
+    <string name="error_loading_wishlist">Error: %1$s</string>
+
+    <string name="no_orders_yet">No orders yet.</string>
+    <string name="failed_to_load_history">Failed to load history</string>
+    <string name="week_summary">Total for %1$s – %2$s: €%3$.2f</string>
+    <string name="month_summary">Total for %1$s %2$d: €%3$.2f</string>
+
+    <string name="please_select_payment_delivery">Please select payment and delivery method</string>
+    <string name="card_payment_pos_only">Card payment only available with POS on delivery</string>
+    <string name="cart_is_empty">Cart is empty</string>
+    <string name="order_placed">Order placed!</string>
+    <string name="order_failed">Failed: %1$s</string>
+
+    <string name="addtobasket">Add to cart</string>
+
+    <string name="week">Choose Week</string>
+    <string name="month">Choose Month</string>
+    <string name="repeat">Repeat Order</string>
+    <string name="basket">Add to cart</string>
+    <string name="wishlist">Wishlist</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="street_address">Street Address</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_to_payment">Continue to Payment</string>
+    <string name="payment_card">Card (POS Delivery)</string>
+    <string name="payment_cash">Cash (+2.50 €)</string>
+    <string name="delivery_acs">ACS (+3.50 €)</string>
+    <string name="delivery_elta">ELTA Courier (+1.50 €)</string>
+
+    <string name="btnContinue">Continue</string>
+
+
+
+</resources>

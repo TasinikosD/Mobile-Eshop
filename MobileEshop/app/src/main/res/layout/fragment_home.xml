@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xml κουμπιών για navuigation μέσω το main page -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homeScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/home"
+            android:contentDescription="App Logo"
+            android:layout_marginBottom="24dp" />
+
+        <GridLayout
+            android:id="@+id/gridButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:useDefaultMargins="true">
+
+            <!-- Example Button 1: Products -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageButton
+                    android:id="@+id/btnProducts"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/imagebutton_border_shape"
+                    android:src="@drawable/products"
+                    android:contentDescription="Shopping list"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Shopping_list"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/textview_border"/>
+            </LinearLayout>
+
+            <!-- Repeat for Wishlist -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageButton
+                    android:id="@+id/btnWishlist"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/imagebutton_border_shape"
+                    android:src="@drawable/wishlist"
+                    android:contentDescription="Wishlist"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Wishlist"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/textview_border"/>
+            </LinearLayout>
+
+            <!-- History -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageButton
+                    android:id="@+id/btnHistory"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/imagebutton_border_shape"
+                    android:src="@drawable/history"
+                    android:contentDescription="History"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/History"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/textview_border"/>
+            </LinearLayout>
+
+            <!-- Offers -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageButton
+                    android:id="@+id/btnOffers"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/imagebutton_border_shape"
+                    android:src="@drawable/offer"
+                    android:contentDescription="Offers"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Offers"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/textview_border"/>
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

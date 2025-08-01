@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="default_price_range">
+        <!-- περιοχές τιμών για την αναζήτηση -->
+        <item>0</item>
+        <item>100</item>
+    </integer-array>
+</resources>

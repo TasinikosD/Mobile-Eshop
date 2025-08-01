@@ -1,0 +1,165 @@
+<!-- μεταφράσεις όλων των σελίδων του app στα ελληνικά -->
+<resources>
+    <string name="app_name">MobileEshop</string>
+    <string name="hello_blank_fragment">Γεια σας</string>
+
+    <!-- strings για το menu -->
+    <string name="home">Αρχική</string>
+    <string name="shop">Κατάστημα</string>
+    <string name="user">Χρήστης</string>
+
+    <!-- strings για το login/register  -->
+    <string name="fill_all_fields">Παρακαλώ γεμίστε όλα τα πεδία</string>
+    <string name="password2">Ο κωδικός πρέπει να έχει τουλάχιστον 6 χαρακτήρες</string>
+    <string name="welcome_back">Καλωσόρισες πίσω, %1$s!</string>
+    <string name="welcome_back_generic">Καλωσόρισες πίσω!</string>
+    <string name="invalid_email_or_password">Λάθος email ή κωδικός</string>
+    <string name="user_not_found">Ο λογαριασμός δεν βρέθηκε στη βάση δεδομένων.</string>
+    <string name="failed_to_fetch_user">Αποτυχία ανάκτησης δεδομένων χρήστη. Δοκιμάστε ξανά.</string>
+    <string name="login">Σύνδεση</string>
+    <string name="remember_me">Να με θυμάσαι</string>
+    <string name="password">Κωδικός</string>
+    <string name="email">Ηλεκτρονικό Ταχυδρομείο</string>
+    <string name="account">Δεν έχεις λογαριασμό; Εγγραφή</string>
+    <string name="username">Όνομα Χρήστη</string>
+    <string name="register">Εγγραφή</string>
+    <string name="account2">Έχεις λογαριασμό; Σύνδεση</string>
+    <string name="change_password">Επαναφορά Κωδικού</string>
+    <string name="enter_email_to_reset">Παρακαλώ συμπληρώστε την ηλεκτρονική σας διεύθυνση για την αποστολή του συνδέσμου επαναφοράς</string>
+    <string name="reset_email_sent">Έχει σταλεί σύνδεσμος επαναφοράς στην ηλεκτρονική σας διεύθυνση</string>
+    <string name="failed_to_send_reset">Αποτυχία αποστολής συνδέσμου επαναφοράς.</string>
+
+    <!-- Μηνύματα εγγραφής -->
+    <string name="please_fill_all_fields">Συμπληρώστε όλα τα πεδία</string>
+    <string name="password_too_short">Ο κωδικός πρέπει να έχει τουλάχιστον 6 χαρακτήρες</string>
+    <string name="registration_success">Η εγγραφή ήταν επιτυχής! Παρακαλώ συνδεθείτε.</string>
+    <string name="failed_to_save_user">Αποτυχία αποθήκευσης στοιχείων χρήστη: %1$s</string>
+    <string name="registration_failed">Η εγγραφή απέτυχε: %1$s</string>
+
+    <!-- strings για το HomeFragment   -->
+    <string name="Shopping_list">Λίστα Αγοράς</string>
+    <string name="Wishlist">Λίστα Επιθυμιών</string>
+    <string name="History">Ιστορικό</string>
+    <string name="Offers">Προσφορές</string>
+
+    <!-- strings για το UserFragment   -->
+    <string name="UserName">Όνομα Χρήστη</string>
+    <string name="nameenter">Πληκτρολογίστε το Όνομα Χρήστη σας</string>
+    <string name="Email2">Ηλεκτρονικό Ταχυδρομείο</string>
+    <string name="Emailenter">Πληκτρολογίστε το Ηλεκτρονικό Ταχυδρομείο σας</string>
+    <string name="Save_Changes">Αποθήκευση</string>
+    <string name="Change_Password">Αλλαγή Κωδικού</string>
+    <string name="Logout">Αποσύνδεση</string>
+    <string name="delete_account_title">Διαγραφή λογαριασμού</string>
+    <string name="delete_account_message">Είστε σίγουροι ότι θέλετε να διαγράψετε τον λογαριασμό σας; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="delete_account_confirm">Επιβεβαιώνετε τη διαγραφή του λογαριασμού; Η ενέργεια είναι μόνιμη.</string>
+    <string name="yes">Ναι</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="account_deleted">Ο λογαριασμός διαγράφηκε</string>
+    <string name="auth_delete_failed">Αποτυχία διαγραφής χρήστη: %1$s</string>
+    <string name="firestore_delete_failed">Αποτυχία διαγραφής από τη βάση: %1$s</string>
+    <string name="user_data_not_found">Δεν βρέθηκαν στοιχεία χρήστη</string>
+    <string name="failed_to_load_user_data">Αποτυχία φόρτωσης δεδομένων χρήστη</string>
+    <string name="email_empty">Το πεδίο email είναι κενό</string>
+    <string name="reset_email_failed">Αποτυχία αποστολής email επαναφοράς: %1$s</string>
+    <string name="failed_to_delete_account">Αποτυχία διαγραφής λογαριασμού: %1$s</string>
+
+    <!-- Strings για Product Adapter -->,
+    <string name="added_to_cart">%1$s προστέθηκε στο καλάθι</string>
+    <string name="added_to_favorites">Προστέθηκε στα αγαπημένα</string>
+    <string name="removed_from_favorites">Αφαιρέθηκε από τα αγαπημένα</string>
+    <string name="failed_to_add_favorite">Αποτυχία προσθήκης: %1$s</string>
+    <string name="failed_to_remove_favorite">Αποτυχία αφαίρεσης: %1$s</string>
+
+    <!--Strings για shop-->
+    <string name="price_range_label">Τιμή: από %.2f€ έως %.2f€</string>
+    <string name="cat_all">Όλα</string>
+    <string name="cat_fresh_food">Φρέσκα Τρόφιμα</string>
+    <string name="cat_dairy">Γαλακτοκομικά</string>
+    <string name="cat_frozen">Κατεψυγμένα</string>
+    <string name="cat_cleaning">Καθαριστικά</string>
+    <string name="search_hint">Αναζήτηση προϊόντων</string>
+    <string name="only_offers">Μόνο προσφορές</string>
+    <string name="only_available">Μόνο διαθέσιμα</string>
+    <string name="price_range_label_default">Τιμή: από 0€ έως 100€</string>
+
+    <!-- Additions -->
+    <string name="offer_badge">ΠΡΟΣΦΟΡΑ</string>
+    <string name="quantities">Διαθέσιμη ποσότητα: %1$d</string>
+    <string name="no_quantity_available">Μη διαθέσιμη ποσότητα</string>
+    <string name="add_to_cart">Προσθήλη στη λίστα αγορών</string>
+    <string name="favorite">Λίστα Επιθυμιών</string>
+    <string name="available">Διαθέσιμο</string>
+    <string name="not_available">Μη διαθέσιμο</string>
+    <string name="price_format">%.2f</string>
+
+    <string name="total_price_format">Σύνολο: €%.2f</string>.
+    <string name="in_stock">Διαθέσιμο</string>
+    <string name="out_of_stock">Εκτός αποθέματος</string>
+    <string name="stock_unknown">Άγνωστο απόθεμα</string>
+
+    <string name="full_name_hint">Ονοματεπώνυμο</string>
+    <string name="street_address_hint">Διεύθυνση</string>
+    <string name="city_hint">Πόλη</string>
+    <string name="postal_code_hint">Τ.Κ.</string>
+    <string name="phone_number_hint">Τηλέφωνο</string>
+    <string name="continue_button_text">Συνέχεια στη Πληρωμή</string>
+    <string name="fill_all_fields_error">Συμπληρώστε όλα τα πεδία</string>
+
+
+    <string name="order_id">Κωδικός Παραγγελίας:</string>
+    <string name="date">Ημερομηνία:</string>
+    <string name="address">Διεύθυνση:</string>
+    <string name="phone">Τηλέφωνο:</string>
+    <string name="payment">Τρόπος Πληρωμής:</string>
+    <string name="delivery">Παράδοση:</string>
+    <string name="total">Σύνολο: €%1$.2f</string>
+    <string name="repeat_order_success">Η παραγγελία προστέθηκε ξανά στο καλάθι</string>
+    <string name="product_info">• %1$s ×%2$d (€%3$.2f)</string>
+
+
+    <string name="empty_cart_message">Το καλάθι σας είναι κενό.</string>
+    <string name="all_products_in_stock">Όλα τα προϊόντα είναι διαθέσιμα! Προχωράμε...</string>
+    <string name="product_not_found_in_db">Το προϊόν %1$s δεν βρέθηκε στη βάση δεδομένων</string>
+    <string name="not_enough_stock">Δεν υπάρχει αρκετό απόθεμα για %1$s (ζητήθηκαν: %2$d, διαθέσιμα: %3$d)</string>
+    <string name="btn_continue">Συνέχεια</string>
+
+
+
+    <string name="not_logged_in">Δεν είστε συνδεδεμένος</string>
+    <string name="error_loading_wishlist">Σφάλμα: %1$s</string>
+
+    <string name="no_orders_yet">Δεν υπάρχουν παραγγελίες ακόμα.</string>
+    <string name="failed_to_load_history">Αποτυχία φόρτωσης ιστορικού</string>
+    <string name="week_summary">Σύνολο για %1$s – %2$s: €%3$.2f</string>
+    <string name="month_summary">Σύνολο για %1$s %2$d: €%3$.2f</string>
+
+    <string name="please_select_payment_delivery">Παρακαλώ επιλέξτε μέθοδο πληρωμής και παράδοσης</string>
+    <string name="card_payment_pos_only">Η πληρωμή με κάρτα είναι διαθέσιμη μόνο με POS κατά την παράδοση</string>
+    <string name="cart_is_empty">Το καλάθι είναι άδειο</string>
+    <string name="order_placed">Η παραγγελία καταχωρήθηκε!</string>
+    <string name="order_failed">Αποτυχία: %1$s</string>
+
+    <string name="addtobasket">Προσθήκη στο καλάθι</string>
+
+    <string name="week">Επιλογή Εβδομάδας</string>
+    <string name="month">Επιλογή Μήνα</string>
+    <string name="repeat">Επανάληψη Παραγγελίας</string>
+    <string name="basket">Προσθήκη στο καλάθι</string>
+    <string name="wishlist">Λίστα Επιθυμιών</string>
+
+    <string name="full_name">Ονοματεπώνυμο</string>
+    <string name="street_address">Διεύθυνση</string>
+    <string name="city">Πόλη</string>
+    <string name="postal_code">Τ.Κ. (Ταχυδρομικός Κώδικας)</string>
+    <string name="phone_number">Τηλέφωνο</string>
+    <string name="continue_to_payment">Συνέχεια στην Πληρωμή</string>
+    <string name="payment_card">Κάρτα (POS Κατά την Παράδοση)</string>
+    <string name="payment_cash">Μετρητά (+2,50 €)</string>
+    <string name="delivery_acs">ACS (+3,50 €)</string>
+    <string name="delivery_elta">Ταχυμεταφορές ΕΛΤΑ (+1,50 €)</string>
+
+    <string name="btnContinue">Συνέχεια</string>
+
+</resources>

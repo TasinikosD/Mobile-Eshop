@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- κύρια χρώματα -->
+    <color name="deep_blue">#002147</color>
+    <color name="deep_blue_variant">#001634</color>
+
+    <!-- δευτερεύοντα χρώματα -->
+    <color name="maroon_red">#8A1D2B</color>
+    <color name="maroon_variant">#6A1520</color>
+
+    <!-- βασικά ui -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_background">#121212</color> <!-- matches screenshot -->
+</resources>
